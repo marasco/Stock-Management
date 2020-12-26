@@ -218,7 +218,7 @@
                 {{-- <span class="logo-mini"><img src="#" width="50px" height="40px"></span> --}}
 
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg">Sangit</b></span>
+                <span class="logo-lg">LOZANO</b></span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top">
@@ -243,7 +243,6 @@
 
                                     <p>
                                         Admin
-                                        <small>github.com/sangit0</small>
                                     </p>
                                 </li>
                                 <!-- Menu Body -->
@@ -255,7 +254,7 @@
                                 <li class="user-footer">
 
                                     <div class="pull-right">
-                                        {{-- <a href="{{URL::to('/logout')}}" class="btn btn-default btn-flat">Sign out</a> --}}
+                                        {{-- <a href="{{URL::to('/logout')}}" class="btn btn-default btn-flat">Salir</a> --}}
                                     </div>
                                 </li>
                             </ul>
@@ -274,8 +273,7 @@
                         <img src="employee_images/photo_default_emplyee1.png" class="img-circle" alt="User Image">
                     </div>
                     <div class="pull-left info">
-                        <p>Sangit</p>
-                        <small>Developer</small>
+                        <p>LOZANO</p>
 
                     </div>
                 </div>
@@ -286,20 +284,20 @@
                     <li class="treeview">
                         <a href="#">
                         <i class="fa fa-files-o"></i>
-                        <span>Stock</span>
+                        <span>Productos</span>
                         <span class="pull-right-container">
                         </span>
                     </a>
                         <ul class="treeview-menu">
-                            <li><a href="{{URL::to('/add-stock')}}"><i class="fa fa-clone"></i> Add stock</a></li>
-                            <li><a href="{{URL::to('/stock-manage')}}"><i class="fa fa-leaf"></i> Manage stock</a></li>
+                            <li><a href="{{URL::to('/add-stock')}}"><i class="fa fa-clone"></i> Agregar</a></li>
+                            <li><a href="{{URL::to('/stock-manage')}}"><i class="fa fa-leaf"></i> Listar</a></li>
                         </ul>
                     </li>
 
                     <li>
                         <a href="{{URL::to('/settings')}}">
                         <i class="fa fa-cogs"></i>
-                        <span>Settings</span>
+                        <span>Configuracion</span>
                         <span class="pull-right-container">
                         </span>
                     </a>
@@ -307,14 +305,14 @@
                     <li class="treeview">
                         <a href="#">
                             <i class="fa fa-tint"></i>
-                            <span> Supplyers</span>
+                            <span> Proveedores</span>
                             <span class="pull-right-container">
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="{{URL::to('/supplyer')}}"><i class="fa fa-clone"></i> Manage supplyers</a></li>
-                            <li><a href="{{URL::to('/supplyerPayment')}}"><i class="fa fa-money"></i> Payment</a></li>
-                        </ul>
+                            <li><a href="{{URL::to('/supplyer')}}"><i class="fa fa-clone"></i> Lista</a></li>
+                            <!--<li><a href="{{URL::to('/supplyerPayment')}}"><i class="fa fa-money"></i> Payment</a></li>
+                        --></ul>
                     </li>
                 </ul>
 
@@ -352,7 +350,6 @@
             <div class="pull-right hidden-xs">
                 <b>Version</b> 1.0 Beta
             </div>
-            <strong>Copyright &copy; 2018 <a href="https://github.com/sangit0">Sangit</a>.</strong> All rights reserved.
         </footer>
 
         <!-- Add the sidebar's background. This div must be placed
